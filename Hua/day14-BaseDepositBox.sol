@@ -1,6 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0; 
-import {contract BaseDepositBox} from "day14-IDepositBox.sol";
+
+import "./day14-IDepositBox.sol";
 
 abstract contract BaseDepositBox is IDepositBox {
 
