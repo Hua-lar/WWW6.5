@@ -42,7 +42,7 @@ contract TipJar {
         require(conversionRates[_currencyCode] > 0, "Currency not supported");
         uint256 ethAmount = _amount * conversionRates[_currencyCode];
         return ethAmount;
-
+    }
 
     function tipInEth() public payable {
         require(msg.value > 0, "Tip amount must be greater than 0");
