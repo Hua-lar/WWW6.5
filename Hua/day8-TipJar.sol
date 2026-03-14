@@ -9,7 +9,7 @@ contract TipJar {
     string[] public supportedCurrencies;  
     mapping(string => uint256) public tipsPerCurrency;
 
-    constructo () {
+    constructor() {
         owner = msg.sender;
         addCurrency("USD", 5 * 10**14);  // 1 USD = 0.0005 ETH
         addCurrency("EUR", 6 * 10**14);  // 1 EUR = 0.0006 ETH
