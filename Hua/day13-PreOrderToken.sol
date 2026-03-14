@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {contract PreOrderToken} from "day13-MyToken.sol";
+import "./day13-MyToken.sol";
 
 contract PreOrderToken is MyToken {
     uint256 public tokenPrice;
