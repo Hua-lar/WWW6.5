@@ -14,4 +14,5 @@ contract SubscriptionStorageLayout {
     mapping(address => Subscription) public subscriptions;
     mapping(uint8 => uint256) public planPrices;
     mapping(uint8 => uint256) public planDuration;
+    uint256[50] private __gap;
 }
