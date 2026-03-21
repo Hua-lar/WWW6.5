@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./day18_AggregatorV3Interface.sol";
-import "./day18_Ownable.sol";
+import "./day18-AggregatorV3Interface.sol";
+import "./day18-Ownable.sol";
 
 contract CropInsurance is Ownable {
     AggregatorV3Interface private weatherOracle;
